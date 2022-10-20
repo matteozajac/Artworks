@@ -11,5 +11,9 @@ It is a starter project for analytics and performance mobile workshops.
 
 
 ## Screenshots
-![ui-list-light](ui-list-light.png)
-![ui-list-dark](ui-list-dark.png)
+
+
+
+| Light  | Dark |
+| ------------- | ------------- |
+| <img src="ui-list-light.png" width="300"> | <img src="ui-list-dark.png" width="300">  |
