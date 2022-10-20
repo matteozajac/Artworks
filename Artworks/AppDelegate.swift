@@ -18,11 +18,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 }
-
-// Testing App Delegate
-// Handle server issue in a different way
-// Composer
-// Use cases
-// Diagram
-// Different Data Stores MET, AIC
-// Programatic UI - no storyboards
