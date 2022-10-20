@@ -1,0 +1,502 @@
+{
+  "pagination": {
+    "total": 117295,
+    "limit": 3,
+    "offset": 0,
+    "total_pages": 39099,
+    "current_page": 1,
+    "next_url": "https://api.artic.edu/api/v1/artworks?page=2&limit=3"
+  },
+  "data": [
+    {
+      "id": 26779,
+      "api_model": "artworks",
+      "api_link": "https://api.artic.edu/api/v1/artworks/26779",
+      "is_boosted": false,
+      "title": "Woman",
+      "alt_titles": null,
+      "thumbnail": {
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAGlJNGFIOYk+FMQgAMggAKBDEsFtLN54QbyDSNyBStuQT+qcXuqkZeGjceXSx+rc1PX36vb/8vn/9/n/+wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoKQ00UIMB1MIyYQY0BMATggAOw==",
+        "width": 2422,
+        "height": 3000,
+        "alt_text": "A work made of four color lithograph with photolithographic element and collaged paper patches on white wove paper."
+      },
+      "main_reference_number": "1967.54",
+      "has_not_been_viewed_much": true,
+      "boost_rank": null,
+      "date_start": 1965,
+      "date_end": 1965,
+      "date_display": "1965",
+      "date_qualifier_title": "",
+      "date_qualifier_id": null,
+      "artist_display": "Allen Jones\nEnglish, born 1937",
+      "place_of_origin": "England",
+      "dimensions": "70 × 56.5 cm (27 9/16 × 22 1/4 in.)",
+      "medium_display": "Four color lithograph with photolithographic element and collaged paper patches on white wove paper",
+      "inscriptions": null,
+      "credit_line": "Purchased with funds provided by Mr. and Mrs. Solomon B. Smith",
+      "catalogue_display": "<p>Lloyd 32</p>",
+      "publication_history": null,
+      "exhibition_history": null,
+      "provenance_text": null,
+      "publishing_verification_level": "Web Basic",
+      "internal_department_id": 3,
+      "fiscal_year": null,
+      "fiscal_year_deaccession": null,
+      "is_public_domain": false,
+      "is_zoomable": false,
+      "max_zoom_window_size": 843,
+      "copyright_notice": null,
+      "has_multimedia_resources": false,
+      "has_educational_resources": false,
+      "has_advanced_imaging": false,
+      "colorfulness": 122.1977,
+      "color": {
+        "h": 9,
+        "l": 46,
+        "s": 99,
+        "percentage": 0.3617803593260704,
+        "population": 3184
+      },
+      "latitude": null,
+      "longitude": null,
+      "latlon": null,
+      "is_on_view": false,
+      "on_loan_display": null,
+      "gallery_title": null,
+      "gallery_id": null,
+      "artwork_type_title": "Print",
+      "artwork_type_id": 18,
+      "department_title": "Prints and Drawings",
+      "department_id": "PC-13",
+      "artist_id": 13073,
+      "artist_title": "Allen Jones",
+      "alt_artist_ids": [],
+      "artist_ids": [
+        13073
+      ],
+      "artist_titles": [
+        "Allen Jones"
+      ],
+      "category_ids": [
+        "PC-13"
+      ],
+      "category_titles": [
+        "Prints and Drawings"
+      ],
+      "term_titles": [
+        "lithograph",
+        "paper (fiber product)",
+        "print",
+        "prints and drawing"
+      ],
+      "style_id": null,
+      "style_title": null,
+      "alt_style_ids": [],
+      "style_ids": [],
+      "style_titles": [],
+      "classification_id": "TM-71",
+      "classification_title": "lithograph",
+      "alt_classification_ids": [
+        "TM-17",
+        "TM-4"
+      ],
+      "classification_ids": [
+        "TM-71",
+        "TM-17",
+        "TM-4"
+      ],
+      "classification_titles": [
+        "lithograph",
+        "print",
+        "prints and drawing"
+      ],
+      "subject_id": null,
+      "alt_subject_ids": [],
+      "subject_ids": [],
+      "subject_titles": [],
+      "material_id": "TM-2982",
+      "alt_material_ids": [],
+      "material_ids": [
+        "TM-2982"
+      ],
+      "material_titles": [
+        "paper (fiber product)"
+      ],
+      "technique_id": null,
+      "alt_technique_ids": [],
+      "technique_ids": [],
+      "technique_titles": [],
+      "theme_titles": [],
+      "image_id": "55ac04d1-1fd0-f618-9ad1-e7a8662e3448",
+      "alt_image_ids": [],
+      "document_ids": [],
+      "sound_ids": [],
+      "video_ids": [],
+      "text_ids": [],
+      "section_ids": [],
+      "section_titles": [],
+      "site_ids": [],
+      "suggest_autocomplete_all": [
+        {
+          "input": [
+            "1967.54"
+          ],
+          "contexts": {
+            "groupings": [
+              "accession"
+            ]
+          }
+        },
+        {
+          "input": [
+            "Woman"
+          ],
+          "weight": 100,
+          "contexts": {
+            "groupings": [
+              "title"
+            ]
+          }
+        }
+      ],
+      "source_updated_at": "2022-10-19T15:35:01-05:00",
+      "updated_at": "2022-10-19T15:35:55-05:00",
+      "timestamp": "2022-10-19T16:08:45-05:00"
+    },
+    {
+      "id": 250924,
+      "api_model": "artworks",
+      "api_link": "https://api.artic.edu/api/v1/artworks/250924",
+      "is_boosted": false,
+      "title": "We Knew So Little Then/ I Know Even Less Now...",
+      "alt_titles": null,
+      "thumbnail": {
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAAHJdJXVoSIl2TJd9X6mCYqGAbLWchqmflamhhLemj8yxlsivpNesoMS0q9G6ttG+u9fBuNfBvNjHud/WzODTyeHXzuTYzePb1Ori2+fl4+bk5Ofk5OXl5ubm5ufn5ujm5ujn5unq5u/u7gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhQNGhgalcQB9DQWKZeDIKQQCR2IQYBMBgwdE8HJAIpRMEADs=",
+        "width": 8314,
+        "height": 5543,
+        "alt_text": "A work made of acrylic on canvas."
+      },
+      "main_reference_number": "Obj: 250924",
+      "has_not_been_viewed_much": true,
+      "boost_rank": null,
+      "date_start": 2019,
+      "date_end": 2019,
+      "date_display": "2019",
+      "date_qualifier_title": "",
+      "date_qualifier_id": null,
+      "artist_display": "Christina Quarles\nAmerican, born 1985",
+      "place_of_origin": "Chicago",
+      "dimensions": "152.4 × 182.9 × 5.1 cm (60 × 72 × 2 in.)",
+      "medium_display": "Acrylic on canvas",
+      "inscriptions": null,
+      "credit_line": "Promised gift of The Joyner/Giuffrida Collection",
+      "catalogue_display": null,
+      "publication_history": null,
+      "exhibition_history": null,
+      "provenance_text": null,
+      "publishing_verification_level": "Web Basic",
+      "internal_department_id": 246,
+      "fiscal_year": null,
+      "fiscal_year_deaccession": null,
+      "is_public_domain": false,
+      "is_zoomable": false,
+      "max_zoom_window_size": 843,
+      "copyright_notice": null,
+      "has_multimedia_resources": false,
+      "has_educational_resources": false,
+      "has_advanced_imaging": false,
+      "colorfulness": 46.8151,
+      "color": {
+        "h": 46,
+        "l": 45,
+        "s": 92,
+        "percentage": 0.0006097494554676971,
+        "population": 281
+      },
+      "latitude": null,
+      "longitude": null,
+      "latlon": null,
+      "is_on_view": false,
+      "on_loan_display": null,
+      "gallery_title": null,
+      "gallery_id": null,
+      "artwork_type_title": "Painting",
+      "artwork_type_id": 1,
+      "department_title": "Contemporary Art",
+      "department_id": "PC-8",
+      "artist_id": 116559,
+      "artist_title": "Christina Quarles",
+      "alt_artist_ids": [],
+      "artist_ids": [
+        116559
+      ],
+      "artist_titles": [
+        "Christina Quarles"
+      ],
+      "category_ids": [
+        "PC-8"
+      ],
+      "category_titles": [
+        "Contemporary Art"
+      ],
+      "term_titles": [
+        "acrylic",
+        "21st Century",
+        "figures (representations)",
+        "painting",
+        "painting",
+        "portrait",
+        "body"
+      ],
+      "style_id": null,
+      "style_title": null,
+      "alt_style_ids": [],
+      "style_ids": [],
+      "style_titles": [],
+      "classification_id": "TM-14200",
+      "classification_title": "21st Century",
+      "alt_classification_ids": [
+        "TM-9"
+      ],
+      "classification_ids": [
+        "TM-14200",
+        "TM-9"
+      ],
+      "classification_titles": [
+        "21st Century",
+        "painting"
+      ],
+      "subject_id": "TM-12283",
+      "alt_subject_ids": [
+        "TM-14105",
+        "TM-14211"
+      ],
+      "subject_ids": [
+        "TM-12283",
+        "TM-14105",
+        "TM-14211"
+      ],
+      "subject_titles": [
+        "figures (representations)",
+        "portrait",
+        "body"
+      ],
+      "material_id": null,
+      "alt_material_ids": [],
+      "material_ids": [],
+      "material_titles": [],
+      "technique_id": "TM-14206",
+      "alt_technique_ids": [
+        "TM-14210"
+      ],
+      "technique_ids": [
+        "TM-14206",
+        "TM-14210"
+      ],
+      "technique_titles": [
+        "acrylic",
+        "painting"
+      ],
+      "theme_titles": [],
+      "image_id": "df8b8622-d051-1697-9be7-05b1ddfd1e3f",
+      "alt_image_ids": [],
+      "document_ids": [],
+      "sound_ids": [],
+      "video_ids": [],
+      "text_ids": [],
+      "section_ids": [],
+      "section_titles": [],
+      "site_ids": [],
+      "suggest_autocomplete_all": [
+        {
+          "input": [
+            "Obj: 250924"
+          ],
+          "contexts": {
+            "groupings": [
+              "accession"
+            ]
+          }
+        },
+        {
+          "input": [
+            "We Knew So Little Then/ I Know Even Less Now..."
+          ],
+          "weight": 1,
+          "contexts": {
+            "groupings": [
+              "title"
+            ]
+          }
+        }
+      ],
+      "source_updated_at": "2022-10-19T15:07:50-05:00",
+      "updated_at": "2022-10-19T15:10:57-05:00",
+      "timestamp": "2022-10-19T16:08:45-05:00"
+    },
+    {
+      "id": 90439,
+      "api_model": "artworks",
+      "api_link": "https://api.artic.edu/api/v1/artworks/90439",
+      "is_boosted": false,
+      "title": "Composition",
+      "alt_titles": null,
+      "thumbnail": {
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAC8rNyU0Nl0uHzJBMXZFHl9IKm9HLG5dQWZSTmhUUnBfXW9pRGVnXGpzaIJsSIFvTYZwUYJ0WoB3YZ56dwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIKA0gQBJQ8FMCXEgkeE8SwgAOw==",
+        "width": 1879,
+        "height": 2250,
+        "alt_text": "A work made of oil on canvas."
+      },
+      "main_reference_number": "1989.384.1",
+      "has_not_been_viewed_much": false,
+      "boost_rank": null,
+      "date_start": 1915,
+      "date_end": 1915,
+      "date_display": "1915",
+      "date_qualifier_title": "",
+      "date_qualifier_id": null,
+      "artist_display": "Léopold Survage\nFrench, born Russia, 1879-1968",
+      "place_of_origin": "France",
+      "dimensions": "55.3 × 46.4 cm (21 3/4 × 18 1/4 in.)",
+      "medium_display": "Oil on canvas",
+      "inscriptions": "Signed, l.l.: \"L. Survage/1915\"",
+      "credit_line": "Bequest of Mima de Manziarly Porter",
+      "catalogue_display": null,
+      "publication_history": "Paul Fierens, Survage (Paris: Éditions des Quatre Chemins, 1930), n.p. (ill.), no. 9, as Maisons et Feuilles, 1915.\n\nPetit Palais, Les Maitres de l’art indépendant 1895–1937, exh. cat. (Paris: Petit Palais, 1937), p. 72, cat. 13 (salle 20), as Maison, 1915.\n\nThe Art Institute of Chicago, Annual Report (1989–1990), p. 51.",
+      "exhibition_history": "Paris, Petit Palais, Les Maitres de l’art indépendant 1895–1937, June–October 1937, p. 72, cat. 13 (salle 20), as Maison, 1915.",
+      "provenance_text": "Hélène Survage (née Moniuschko, 1879–1968), Paris, by 1937 [Paris 1937]. Mima de Manziarly Porter, Chicago and New York, summer 1938 [Porter Estate document, c. 1938–49, in curatorial file]; bequeathed to the Art Institute of Chicago, 1989.",
+      "publishing_verification_level": "Web Cataloged",
+      "internal_department_id": 246,
+      "fiscal_year": 1990,
+      "fiscal_year_deaccession": null,
+      "is_public_domain": false,
+      "is_zoomable": true,
+      "max_zoom_window_size": 1280,
+      "copyright_notice": "© 2018 Artists Rights Society (ARS), New York / ADAGP, Paris",
+      "has_multimedia_resources": false,
+      "has_educational_resources": false,
+      "has_advanced_imaging": false,
+      "colorfulness": 40.2146,
+      "color": {
+        "h": 14,
+        "l": 35,
+        "s": 85,
+        "percentage": 0.02609962296625742,
+        "population": 222
+      },
+      "latitude": null,
+      "longitude": null,
+      "latlon": null,
+      "is_on_view": false,
+      "on_loan_display": null,
+      "gallery_title": null,
+      "gallery_id": null,
+      "artwork_type_title": "Painting",
+      "artwork_type_id": 1,
+      "department_title": "Modern Art",
+      "department_id": "PC-11",
+      "artist_id": 36839,
+      "artist_title": "Léopold Survage",
+      "alt_artist_ids": [],
+      "artist_ids": [
+        36839
+      ],
+      "artist_titles": [
+        "Léopold Survage"
+      ],
+      "category_ids": [
+        "PC-11"
+      ],
+      "category_titles": [
+        "Modern Art"
+      ],
+      "term_titles": [
+        "oil on canvas",
+        "painting",
+        "modern and contemporary art"
+      ],
+      "style_id": null,
+      "style_title": null,
+      "alt_style_ids": [],
+      "style_ids": [],
+      "style_titles": [],
+      "classification_id": "TM-66",
+      "classification_title": "oil on canvas",
+      "alt_classification_ids": [
+        "TM-9",
+        "TM-155"
+      ],
+      "classification_ids": [
+        "TM-66",
+        "TM-9",
+        "TM-155"
+      ],
+      "classification_titles": [
+        "oil on canvas",
+        "painting",
+        "modern and contemporary art"
+      ],
+      "subject_id": null,
+      "alt_subject_ids": [],
+      "subject_ids": [],
+      "subject_titles": [],
+      "material_id": null,
+      "alt_material_ids": [],
+      "material_ids": [],
+      "material_titles": [],
+      "technique_id": null,
+      "alt_technique_ids": [],
+      "technique_ids": [],
+      "technique_titles": [],
+      "theme_titles": [],
+      "image_id": "acca2f6b-ee63-00c6-5f87-e162920d7b20",
+      "alt_image_ids": [],
+      "document_ids": [],
+      "sound_ids": [],
+      "video_ids": [],
+      "text_ids": [],
+      "section_ids": [],
+      "section_titles": [],
+      "site_ids": [],
+      "suggest_autocomplete_all": [
+        {
+          "input": [
+            "1989.384.1"
+          ],
+          "contexts": {
+            "groupings": [
+              "accession"
+            ]
+          }
+        },
+        {
+          "input": [
+            "Composition"
+          ],
+          "weight": 1572,
+          "contexts": {
+            "groupings": [
+              "title"
+            ]
+          }
+        }
+      ],
+      "source_updated_at": "2022-10-19T15:10:00-05:00",
+      "updated_at": "2022-10-19T15:10:57-05:00",
+      "timestamp": "2022-10-19T16:08:45-05:00"
+    }
+  ],
+  "info": {
+    "license_text": "The data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+    "license_links": [
+      "https://creativecommons.org/publicdomain/zero/1.0/",
+      "https://www.artic.edu/terms"
+    ],
+    "version": "1.5"
+  },
+  "config": {
+    "iiif_url": "https://www.artic.edu/iiif/2",
+    "website_url": "http://www.artic.edu"
+  }
+}
