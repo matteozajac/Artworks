@@ -23,7 +23,7 @@ final class AICArtworkRemoteDataSource: ArtworkRepository {
                     let aicResponse = try JSONDecoder().decode(AICResponse.self, from: data)
                     let artworks = aicResponse.data.map(AICMapper.toArtwork)
                     completion(.success(artworks))
-                case let .failure(error): ()
+                case let .failure(error):
                     completion(.failure(error))
                 }
             } catch {

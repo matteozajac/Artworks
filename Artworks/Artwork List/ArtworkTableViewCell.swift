@@ -14,7 +14,8 @@ class ArtworkTableViewCell: UITableViewCell {
     private(set) lazy var subtitleLabel: UILabel = {
         let label = UILabel()
         label.numberOfLines = 0
-        label.font = UIFont.preferredFont(forTextStyle: UIFont.TextStyle.caption1)
+        label.font = UIFont.preferredFont(forTextStyle: UIFont.TextStyle.subheadline)
+        label.textColor = UIColor.secondaryLabel
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -38,14 +39,16 @@ class ArtworkTableViewCell: UITableViewCell {
     private(set) lazy var cellImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.contentMode = .scaleAspectFit
+        imageView.contentMode = .scaleAspectFill
+        imageView.clipsToBounds = true
         return imageView
     }()
 
     private(set) lazy var stackView: UIStackView = {
-        let stackView = UIStackView(arrangedSubviews: [cellImageView, overlineLabel, titleLabel, subtitleLabel, descriptionLabel])
+        let stackView = UIStackView(arrangedSubviews: [overlineLabel, titleLabel, subtitleLabel, descriptionLabel])
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.axis = .vertical
+        stackView.spacing = 4
         return stackView
     }()
 
@@ -53,24 +56,29 @@ class ArtworkTableViewCell: UITableViewCell {
         let cardView = UIView()
         cardView.translatesAutoresizingMaskIntoConstraints = false
         cardView.layer.cornerRadius = 8
+        cardView.clipsToBounds = true
         return cardView
     }()
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         addSubview(cardView)
+        cardView.addSubview(cellImageView)
         cardView.addSubview(stackView)
 
         NSLayoutConstraint.activate([
-            cellImageView.heightAnchor.constraint(equalToConstant: 300),
-            cellImageView.widthAnchor.constraint(equalToConstant: 300),
 
             cardView.topAnchor.constraint(equalTo: topAnchor, constant: 8),
             cardView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16),
             cardView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16),
             cardView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -8),
+            
+            cellImageView.topAnchor.constraint(equalTo: cardView.topAnchor),
+            cellImageView.leadingAnchor.constraint(equalTo: cardView.leadingAnchor),
+            cellImageView.trailingAnchor.constraint(equalTo: cardView.trailingAnchor),
+            cellImageView.heightAnchor.constraint(equalTo: cellImageView.widthAnchor),
 
-            stackView.topAnchor.constraint(equalTo: cardView.topAnchor, constant: 16),
+            stackView.topAnchor.constraint(equalTo: cellImageView.bottomAnchor, constant: 16),
             stackView.leadingAnchor.constraint(equalTo: cardView.leadingAnchor, constant: 16),
             stackView.trailingAnchor.constraint(equalTo: cardView.trailingAnchor, constant: -16),
             stackView.bottomAnchor.constraint(equalTo: cardView.bottomAnchor, constant: -16),
