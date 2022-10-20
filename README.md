@@ -1,6 +1,7 @@
 # Artworks
 
 The iOS mobile app displaying the list of images, books, and other types of artwork from the publicly available [Art Institute of Chicago API](https://api.artic.edu/docs/).
+
 It is a starter project for analytics and performance mobile workshops.
 
 ### For all students
